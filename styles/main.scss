@@ -1,0 +1,167 @@
+body {
+  top: 0;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: black;
+  text-align: center;
+  font-size: 4.5vh;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'times new roman', cursive;
+  color: black;
+  text-align: center;
+  font-size: 3vh;
+}
+
+h3 {
+  font-family: 'times new roman', cursive;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+p {
+  color: black;
+  font-family: arial;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.burger-button {
+  position: relative;
+  z-index: 5;
+  margin-left: 20%;  
+}
+
+.background-pic {
+  background-size: auto;
+   min-height: 100%;
+   min-width: 1024px;
+   width: 100%;
+   height: auto;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+ }
+
+.nav-link {
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vh;
+  color: #818181;
+  overflow: hidden;
+}
+
+.nav-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  width: 90%;
+}
+
+.jumbotron-fluid {
+  background-color: #FFFDE7;
+  margin: 0;
+  opacity: 0.9;
+  position: relative;
+  display: block;
+  padding: 8vh;
+}
+
+.carousel.carousel-slide {
+  opacity: 0.9;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3vh;
+  background-color: #FFFDE7;
+  text-align: center;
+}
+
+.footer p {
+  color: black;
+  font-family: arial;
+  text-align: center;
+  font-size: 1.5vh;
+}
+
+.banner-container {
+  position: block;
+  display: flex;
+  width: 100%;
+}
+
+.contact-container {
+  background-color: #FFFDE7;
+  opacity: 0.9;
+  height: auto;
+  width: auto;
+  overflow: auto;
+  padding: 2vh;
+}
+
+.contact-container h4 {
+  text-align: center;
+  color: black;
+  font-family: arial;
+  font-size: 1.5vh;
+  font-weight: normal;
+  width: 50%;
+  margin: auto;
+  padding: 2vh;
+}
+
+.form-container {
+  margin: auto;
+}
+
+.beer-gallery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 0.9;
+  background-color: #FFFDE7;
+  border-color: black;
+  border-style: inset;
+  display: block;
+  padding: 10px;
+}
+
+.beer-gallery h4 {
+  text-align: justify;
+  color: black;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.beer-gallery img {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.kuvausOlut {
+  display: block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+
+
+
