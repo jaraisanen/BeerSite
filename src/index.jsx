@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import { AppContainer } from 'react-hot-loader'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import App from './app';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+
 
 ReactDOM.render(
   <BrowserRouter> 

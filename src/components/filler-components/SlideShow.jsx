@@ -1,27 +1,24 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import { NavLink } from 'react-router-dom';
-import taps from '../../images/taps.jpeg';
-import kettle from '../../images/kettle.jpg';
-import beers from '../../images/beers.jpg';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const SlideShow = () => (
+const SlideShow = (props) => (
   <Carousel 
     showThumbs={false}
     infiniteLoop={true}
-    dynamicHeight={true}>
+    dynamicHeight={props.condition}>
     <div>
-      <img src={taps} />
-      <p className="legend"> Löydät oluttamme hanasta </p>
+      <img src={props.pic1} />
+      <p className="legend"> {props.legend1}  </p>
     </div>
     <div>
-      <img src={kettle}  />
-      <p className="legend"> tynnyristä </p>
+      <img src={props.pic2}  />
+      <p className="legend"> {props.legend2}  </p>
     </div>
     <div>
-      <img src={beers}  />
-      <p className="legend"> tai kätevästi myös pullosta! </p>
+      <img src={props.pic3}  />
+      <p className="legend"> {props.legend3} </p>
     </div>
 </Carousel>
 );

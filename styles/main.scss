@@ -31,11 +31,18 @@ p {
   font-size: 2vh;
 }
 
-.burger-button {
+ button {
   position: relative;
-  z-index: 5;
-  margin-left: 20%;  
+  z-index: 100;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  width: 100%;
 }
+
+tr {
+  margin-left: 2%;
+}
+
 
 .background-pic {
   background-size: auto;
@@ -89,6 +96,7 @@ p {
 }
 
 .footer p {
+  margin: auto;
   color: black;
   font-family: arial;
   text-align: center;
@@ -122,13 +130,13 @@ p {
 }
 
 .form-container {
-  margin: auto;
+  margin: 0;
 }
 
 .beer-gallery {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   opacity: 0.9;
   background-color: #FFFDE7;
   border-color: black;
@@ -152,14 +160,6 @@ p {
   width: auto;
   max-width: 100%;
   height: auto;
-}
-
-.kuvausOlut {
-  display: block;
-  position: relative;
-  height: auto;
-  width: 100%;
-  margin-bottom: 0;
 }
 
 

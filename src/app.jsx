@@ -25,8 +25,9 @@ export default class App extends Component {
         <img className="background-pic" src={ background } />
         <Navigation open={this.state.open}/>
         <RaisedButton
-              className="burger-button"
-              label="Navigointi"
+              className={"button"}
+              fullWidth={true}
+              label="navigointi"
               onClick={this.handleToggle}
             />
         <Routes />

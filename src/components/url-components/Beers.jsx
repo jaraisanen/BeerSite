@@ -5,7 +5,6 @@ import ipa from '../../images/container-imgs/ipa.jpg';
 import paleale from '../../images/container-imgs/paleale.jpg';
 import pils from '../../images/container-imgs/pils.jpg';
 import stout from '../../images/container-imgs/stout.jpg';
-import witbier from '../../images/container-imgs/witbier.jpg';
 
 
 const Beers = () => (
@@ -39,14 +38,6 @@ const Beers = () => (
                 <img src={stout}/>
               </td>
             </tr>
-            <tr>
-              <th>Her Majesty Witbier (5,0 %)</th>
-            </tr>
-            <tr>
-              <th>  
-                <img src={witbier}/>
-              </th>
-            </tr>       
         </div>
       </div>
   );
