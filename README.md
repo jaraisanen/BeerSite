@@ -5,8 +5,8 @@
 * SaSS
 
 ### Required to run:
-* Node.js
-* NPM / Yarn
+* Node.js ( https://nodejs.org/ )
+* NPM / Yarn ( https://www.npmjs.com/get-npm )
 
 ### To get started
 ```
