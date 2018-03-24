@@ -4,6 +4,10 @@
 * Material UI
 * SaSS
 
+### Required to run:
+* Node.js
+* NPM / Yarn
+
 ### To get started
 ```
 git clone git@github.com:jaraisanen/BeerSite.git
