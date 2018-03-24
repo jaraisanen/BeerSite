@@ -3,7 +3,10 @@ import Header from '../filler-components/Header';
 
 const GoogleForm = (props) => (
     <div className="form-container"> 
-    <Header title="Panimovierailulle?" p="tai ota muuten vain yhteyttä!"/>          
+    <Header 
+        title="Panimovierailulle?" 
+        p="tai ota muuten vain yhteyttä!"
+        handleToggle={props.handleToggle}/>          
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrrcZsQdYPmCHaA6suV_p8Gp91mKYAMi1wYhXa88Ne7yHXKw/viewform?embedded=true"
         width="100%" 
         height="1000" 

@@ -1,43 +1,33 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import logo from '../../images/logo.jpg';
 
+import styles from '../inline-styles/material-styles';
+
 export default class Navigation extends Component {
   render() {
-    return(
+    return (
       <div>
-        <Drawer 
-          className="navigation-container"
-          open={this.props.open}
-          style={{backgroundColor: 'black'}}
-          >
+        <Drawer containerStyle={styles.drawer} open={this.props.open}>
           <img className="nav-logo" src={logo} alt="Logo"/>
-          <MenuItem 
-            containerElement={
-            <Link to='/'>
-            </Link>}
-            primaryText="Etusivu"> 
-          </MenuItem>
-          <MenuItem 
-            containerElement={
-            <Link to='/oluet'>
-            </Link>}
-            primaryText="Oluet"> 
-          </MenuItem>
-          <MenuItem 
-            containerElement={
-            <Link to='/panimo'>
-            </Link>}
-            primaryText="Panimo"> 
-          </MenuItem>
-          <MenuItem 
-            containerElement={
-            <Link to='/contact'>
-            </Link>}
-            primaryText="Yhteydenotto"> 
-          </MenuItem>
+          <MenuItem
+            style={styles.menuItem}
+            containerElement={< Link to = '/' > </Link>}
+            primaryText="Etusivu"></MenuItem>
+          <MenuItem
+            style={styles.menuItem}
+            containerElement={< Link to = '/oluet' > </Link>}
+            primaryText="Oluet"></MenuItem>
+          <MenuItem
+            style={styles.menuItem}
+            containerElement={< Link to = '/panimo' > </Link>}
+            primaryText="Panimo"></MenuItem>
+          <MenuItem
+            style={styles.menuItem}
+            containerElement={< Link to = '/contact' > </Link>}
+            primaryText="Yhteydenotto"></MenuItem>
         </Drawer>
       </div>
     );

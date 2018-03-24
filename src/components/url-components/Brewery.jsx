@@ -6,7 +6,9 @@ export default class Brewery extends Component {
   render() {
     return(
       <div>
-        <Header title="Panimo" />
+        <Header 
+          title="Panimo"
+          handleToggle={this.props.handleToggle} />
         <img className="banner-container" src={brewery} /> 
         <article className = "contact-container">
             <h2>Tiedot panimosta </h2>

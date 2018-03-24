@@ -1,13 +1,26 @@
-import React from 'react';
-import { Jumbotron } from 'reactstrap';
+import React, {Component} from 'react';
+import {Jumbotron} from 'reactstrap';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
+import Dehaze from 'material-ui/svg-icons/image/dehaze';
+import styles from '../inline-styles/material-styles';
 
-const Header = (props) => (
-  <div>
-      <Jumbotron className="jumbotron-fluid">
-            <h1 >{props.title}</h1>
-            <p>{props.p}</p>
-      </Jumbotron>
-  </div>     
-  );
+export default class Header extends Component {
 
-  export default Header;
+  render() {
+    return (
+      <div>
+        <Jumbotron className="jumbotron-fluid">
+          <FloatingActionButton
+            style={styles.button}
+            backgroundColor={'rgb(7, 29, 32)'}
+            onClick={this.props.handleToggle}
+            zDepth={4}>
+            <Dehaze/>
+          </FloatingActionButton>
+          <h1 >{this.props.title}</h1>
+          <p>{this.props.p}</p>
+        </Jumbotron>
+      </div>
+    );
+  }
+}
