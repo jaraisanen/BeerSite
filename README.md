@@ -21,3 +21,7 @@ Start the app
 npm start
 ```
 Open the app on http://localhost:8888
+
+Working example
+
+![Alt text](src/images/home.jpg?raw=true "HomeView")
