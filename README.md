@@ -10,7 +10,7 @@
 
 ### To get started
 ```
-git clone git@github.com:jaraisanen/BeerSite.git
+git clone https://github.com/jaraisanen/BeerSite.git
 ```
 Install node_modules 
 ```
@@ -21,3 +21,7 @@ Start the app
 npm start
 ```
 Open the app on http://localhost:8888
+
+Working example
+
+![Alt text](src/images/home.jpg?raw=true "HomeView")
