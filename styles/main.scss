@@ -25,6 +25,14 @@ h3 {
   font-size: 18px;
 }
 
+h4 {
+  text-align: center;
+  color: black;
+  font-family: arial;
+  font-size: 2vh;
+  font-weight: normal;
+}
+
 p {
   color: black;
   font-family: arial;
@@ -39,9 +47,7 @@ p {
   width: 100%;
 }
 
-tr {
-  margin-left: 2%;
-}
+
 
 .background-pic {
   background-size: auto;
@@ -132,9 +138,10 @@ tr {
 }
 
 .beer-gallery {
+  display: table;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: auto;
   opacity: 0.9;
   background-color: #FFFDE7;
   border-color: black;
@@ -143,22 +150,6 @@ tr {
   padding: 10px;
 }
 
-.beer-gallery h4 {
-  text-align: justify;
-  color: black;
-  font-family: arial;
-  font-size: 14px;
-  font-weight: normal;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.beer-gallery img {
-  position: relative;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
 
 
 
