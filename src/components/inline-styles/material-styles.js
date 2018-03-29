@@ -19,8 +19,8 @@ const styles = {
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto',
-        paddingTop: '2vh',
-        paddingBottom: '5vh'
+        paddingTop: '6vh',
+        paddingBottom: '10vh'
     }
 }
 
