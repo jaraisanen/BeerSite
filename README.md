@@ -10,7 +10,7 @@
 
 ### To get started
 ```
-git clone https://github.com/jaraisanen/BeerSite.git
+git clone https://github.com/jaraisanen/ReactLayout.git
 ```
 Install node_modules 
 ```
